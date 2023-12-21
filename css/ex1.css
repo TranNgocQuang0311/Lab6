@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap');
+
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: white;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+}
+nav .nav-left{
+    display: flex;
+}
+nav .nav-left .logo{
+    display: flex;
+    align-items: center;
+}
+nav .nav-left .logo i{
+    font-size: 35px;
+    margin-top: 18px;
+}
+nav .nav-left h1{
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 35px;
+    line-height: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+nav .nav-right a{
+    padding: 50px;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+}
+section h1{
+    font-family: 'Merriweather', serif;
+    padding: 50px;
+}
