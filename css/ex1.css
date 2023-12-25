@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 nav{
-    background: white;
-    margin: 30px;
+    background: black;
+
     display: flex;
     justify-content: space-between;
     padding: 0px 10px;
@@ -19,25 +19,81 @@ nav .nav-left{
 nav .nav-left .logo{
     display: flex;
     align-items: center;
+    padding: 30px ;
 }
 nav .nav-left .logo i{
     font-size: 35px;
-    margin-top: 18px;
+    color: white;
 }
 nav .nav-left h1{
     margin-left: 15px;
-    margin-top: 25px;
+    margin-top: 40px;
     font-size: 35px;
     line-height: 20px;
     font-family: 'Merriweather', serif;
     font-weight: bold;
+    color: white;
 }
 nav .nav-right a{
     padding: 50px;
     font-size: 25px;
     font-family: 'Merriweather', serif;
 }
-section h1{
-    font-family: 'Merriweather', serif;
+.headline{
     padding: 50px;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content img{
+    width: 160px;
+    height: auto;
+    margin-left: 200px;
+}
+.content{
+    display: flex;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-right: 100px;
+}
+.content2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    float: left;
+    max-width: 600px;
+}
+.content2 ul{
+    list-style: none;
+    
+}
+.content2 h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+.content2 li{
+    line-height: 30px;
+    
+}
+.content3{
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 180px;
+    float: right;
+}
+.content3 h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.content3 ul{
+    list-style: none;
+    margin-left: 10px;
 }

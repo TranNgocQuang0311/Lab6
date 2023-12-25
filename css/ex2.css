@@ -1,0 +1,58 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background: black;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    align-items: center;
+}
+nav .nav-left{
+    display: flex;
+}
+nav .nav-left .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+nav .nav-left .logo i{
+    font-size: 35px;
+    margin-top: 18px;
+    color: white;
+}
+nav .nav-left h1{
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 35px;
+    line-height: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: white;
+}
+nav .nav-right a{
+    padding: 50px;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+}
+.conveyor-belt {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.image {
+    width: 500px;
+    height: 300px;
+    background-size: cover;
+}
+
+.row img{
+   margin-left: 40px;
+   width: 50%;
+   height: auto;
+}
